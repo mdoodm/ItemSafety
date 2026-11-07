@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<RootNamespace>ItemSafety</RootNamespace>
+		<AssemblyName>ItemSafety_Il2cpp</AssemblyName>
+		<LangVersion>latest</LangVersion>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<GenerateDocumentationFile>false</GenerateDocumentationFile>
+		<!-- Point this at a Schedule I install (or r2modman profile) that has run MelonLoader once. -->
+		<GamePath Condition="'$(GamePath)'==''">C:\Program Files (x86)\Steam\steamapps\common\Schedule I</GamePath>
+		<ManagedPath>$(GamePath)\MelonLoader\Il2CppAssemblies</ManagedPath>
+		<MelonLoaderPath>$(GamePath)\MelonLoader\net6</MelonLoaderPath>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Reference Include="$(MelonLoaderPath)\MelonLoader.dll" Private="false" />
+		<Reference Include="$(MelonLoaderPath)\0Harmony.dll" Private="false" />
+		<Reference Include="$(MelonLoaderPath)\Il2CppInterop.Runtime.dll" Private="false" />
+		<Reference Include="$(MelonLoaderPath)\Il2CppInterop.Common.dll" Private="false" />
+		<Reference Include="$(ManagedPath)\Assembly-CSharp.dll" Private="false" />
+		<Reference Include="$(ManagedPath)\Il2CppScheduleOne.Core.dll" Private="false" />
+		<Reference Include="$(ManagedPath)\Il2CppFishNet.Runtime.dll" Private="false" />
+		<Reference Include="$(ManagedPath)\Il2Cppmscorlib.dll" Private="false" />
+		<Reference Include="$(ManagedPath)\Il2CppSystem.dll" Private="false" />
+		<Reference Include="$(ManagedPath)\UnityEngine.CoreModule.dll" Private="false" />
+	</ItemGroup>
+</Project>

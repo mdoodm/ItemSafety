@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="t d">
+<title id="t">ItemSafety</title><desc id="d">An inventory of 20 item slots. Six of them hold items the base game would have deleted, kept by ItemSafety.</desc>
+<rect width="1280" height="420" rx="18" fill="#16251F"/>
+<rect x="648" y="37" width="584" height="346" rx="16" fill="#22362E"/>
+<rect x="672" y="61" width="96" height="64" rx="10" fill="#ECE7DD"/>
+<rect x="688" y="75" width="30" height="36" rx="9" fill="#16251F" fill-opacity="0.75"/>
+<rect x="694" y="71" width="18" height="7" rx="3.5" fill="#16251F" fill-opacity="0.45"/>
+<text x="756" y="113" text-anchor="end" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#16251F" fill-opacity="0.85">20</text>
+<rect x="782" y="61" width="96" height="64" rx="10" fill="#ECE7DD"/>
+<rect x="798" y="75" width="30" height="36" rx="9" fill="#16251F" fill-opacity="0.75"/>
+<rect x="804" y="71" width="18" height="7" rx="3.5" fill="#16251F" fill-opacity="0.45"/>
+<text x="866" y="113" text-anchor="end" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#16251F" fill-opacity="0.85">20</text>
+<rect x="892" y="61" width="96" height="64" rx="10" fill="#ECE7DD"/>
+<rect x="908" y="75" width="30" height="36" rx="9" fill="#16251F" fill-opacity="0.75"/>
+<rect x="914" y="71" width="18" height="7" rx="3.5" fill="#16251F" fill-opacity="0.45"/>
+<text x="976" y="113" text-anchor="end" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#16251F" fill-opacity="0.85">16</text>
+<rect x="1002" y="61" width="96" height="64" rx="10" fill="#8BD3A0"/>
+<rect x="1018" y="75" width="30" height="36" rx="9" fill="#16251F" fill-opacity="0.8"/>
+<rect x="1024" y="71" width="18" height="7" rx="3.5" fill="#16251F" fill-opacity="0.45"/>
+<text x="1086" y="113" text-anchor="end" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#16251F" fill-opacity="0.85">20</text>
+<rect x="1112" y="61" width="96" height="64" rx="10" fill="#ECE7DD"/>
+<rect x="1128" y="75" width="30" height="36" rx="9" fill="#16251F" fill-opacity="0.75"/>
+<rect x="1134" y="71" width="18" height="7" rx="3.5" fill="#16251F" fill-opacity="0.45"/>
+<text x="1196" y="113" text-anchor="end" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#16251F" fill-opacity="0.85">8</text>
+<rect x="672" y="139" width="96" height="64" rx="10" fill="#ECE7DD"/>
+<rect x="688" y="153" width="30" height="36" rx="9" fill="#16251F" fill-opacity="0.75"/>
+<rect x="694" y="149" width="18" height="7" rx="3.5" fill="#16251F" fill-opacity="0.45"/>
+<text x="756" y="191" text-anchor="end" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#16251F" fill-opacity="0.85">20</text>
+<rect x="782" y="139" width="96" height="64" rx="10" fill="#8BD3A0"/>
+<rect x="798" y="153" width="30" height="36" rx="9" fill="#16251F" fill-opacity="0.8"/>
+<rect x="804" y="149" width="18" height="7" rx="3.5" fill="#16251F" fill-opacity="0.45"/>
+<text x="866" y="191" text-anchor="end" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#16251F" fill-opacity="0.85">20</text>
+<rect x="892" y="139" width="96" height="64" rx="10" fill="#ECE7DD"/>
+<rect x="908" y="153" width="30" height="36" rx="9" fill="#16251F" fill-opacity="0.75"/>
+<rect x="914" y="149" width="18" height="7" rx="3.5" fill="#16251F" fill-opacity="0.45"/>
+<text x="976" y="191" text-anchor="end" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#16251F" fill-opacity="0.85">12</text>
+<rect x="1002" y="139" width="96" height="64" rx="10" fill="#ECE7DD"/>
+<rect x="1018" y="153" width="30" height="36" rx="9" fill="#16251F" fill-opacity="0.75"/>
+<rect x="1024" y="149" width="18" height="7" rx="3.5" fill="#16251F" fill-opacity="0.45"/>
+<text x="1086" y="191" text-anchor="end" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#16251F" fill-opacity="0.85">20</text>
+<rect x="1112" y="139" width="96" height="64" rx="10" fill="#8BD3A0"/>
+<rect x="1128" y="153" width="30" height="36" rx="9" fill="#16251F" fill-opacity="0.8"/>
+<rect x="1134" y="149" width="18" height="7" rx="3.5" fill="#16251F" fill-opacity="0.45"/>
+<text x="1196" y="191" text-anchor="end" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#16251F" fill-opacity="0.85">20</text>
+<rect x="672" y="217" width="96" height="64" rx="10" fill="#8BD3A0"/>
+<rect x="688" y="231" width="30" height="36" rx="9" fill="#16251F" fill-opacity="0.8"/>
+<rect x="694" y="227" width="18" height="7" rx="3.5" fill="#16251F" fill-opacity="0.45"/>
+<text x="756" y="269" text-anchor="end" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#16251F" fill-opacity="0.85">20</text>
+<rect x="782" y="217" width="96" height="64" rx="10" fill="#ECE7DD"/>
+<rect x="798" y="231" width="30" height="36" rx="9" fill="#16251F" fill-opacity="0.75"/>
+<rect x="804" y="227" width="18" height="7" rx="3.5" fill="#16251F" fill-opacity="0.45"/>
+<text x="866" y="269" text-anchor="end" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#16251F" fill-opacity="0.85">10</text>
+<rect x="892" y="217" width="96" height="64" rx="10" fill="#8BD3A0"/>
+<rect x="908" y="231" width="30" height="36" rx="9" fill="#16251F" fill-opacity="0.8"/>
+<rect x="914" y="227" width="18" height="7" rx="3.5" fill="#16251F" fill-opacity="0.45"/>
+<text x="976" y="269" text-anchor="end" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#16251F" fill-opacity="0.85">20</text>
+<rect x="1002" y="217" width="96" height="64" rx="10" fill="#ECE7DD"/>
+<rect x="1018" y="231" width="30" height="36" rx="9" fill="#16251F" fill-opacity="0.75"/>
+<rect x="1024" y="227" width="18" height="7" rx="3.5" fill="#16251F" fill-opacity="0.45"/>
+<text x="1086" y="269" text-anchor="end" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#16251F" fill-opacity="0.85">20</text>
+<rect x="1112" y="217" width="96" height="64" rx="10" fill="#ECE7DD"/>
+<rect x="1128" y="231" width="30" height="36" rx="9" fill="#16251F" fill-opacity="0.75"/>
+<rect x="1134" y="227" width="18" height="7" rx="3.5" fill="#16251F" fill-opacity="0.45"/>
+<text x="1196" y="269" text-anchor="end" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#16251F" fill-opacity="0.85">14</text>
+<rect x="672" y="295" width="96" height="64" rx="10" fill="#ECE7DD"/>
+<rect x="688" y="309" width="30" height="36" rx="9" fill="#16251F" fill-opacity="0.75"/>
+<rect x="694" y="305" width="18" height="7" rx="3.5" fill="#16251F" fill-opacity="0.45"/>
+<text x="756" y="347" text-anchor="end" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#16251F" fill-opacity="0.85">20</text>
+<rect x="782" y="295" width="96" height="64" rx="10" fill="#ECE7DD"/>
+<rect x="798" y="309" width="30" height="36" rx="9" fill="#16251F" fill-opacity="0.75"/>
+<rect x="804" y="305" width="18" height="7" rx="3.5" fill="#16251F" fill-opacity="0.45"/>
+<text x="866" y="347" text-anchor="end" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#16251F" fill-opacity="0.85">6</text>
+<rect x="892" y="295" width="96" height="64" rx="10" fill="#ECE7DD"/>
+<rect x="908" y="309" width="30" height="36" rx="9" fill="#16251F" fill-opacity="0.75"/>
+<rect x="914" y="305" width="18" height="7" rx="3.5" fill="#16251F" fill-opacity="0.45"/>
+<text x="976" y="347" text-anchor="end" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#16251F" fill-opacity="0.85">20</text>
+<rect x="1002" y="295" width="96" height="64" rx="10" fill="#8BD3A0"/>
+<rect x="1018" y="309" width="30" height="36" rx="9" fill="#16251F" fill-opacity="0.8"/>
+<rect x="1024" y="305" width="18" height="7" rx="3.5" fill="#16251F" fill-opacity="0.45"/>
+<text x="1086" y="347" text-anchor="end" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#16251F" fill-opacity="0.85">20</text>
+<rect x="1112" y="295" width="96" height="64" rx="10" fill="#ECE7DD"/>
+<rect x="1128" y="309" width="30" height="36" rx="9" fill="#16251F" fill-opacity="0.75"/>
+<rect x="1134" y="305" width="18" height="7" rx="3.5" fill="#16251F" fill-opacity="0.45"/>
+<text x="1196" y="347" text-anchor="end" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#16251F" fill-opacity="0.85">20</text>
+<text x="72" y="168" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="78" font-weight="800" letter-spacing="-2" fill="#ECE7DD">ItemSafety</text>
+<text x="74" y="222" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="32" font-weight="500" fill="#93A69B">Stops Schedule I deleting your items</text>
+<rect x="74" y="244" width="196" height="38" rx="19" fill="#F0A23B"/>
+<text x="172" y="271" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#16251F">Alpha test build</text>
+<rect x="74" y="306" width="28" height="28" rx="5" fill="#ECE7DD"/>
+<text x="112" y="329" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="27" font-weight="600" fill="#ECE7DD">Your items</text>
+<rect x="74" y="352" width="28" height="28" rx="5" fill="#8BD3A0"/>
+<text x="112" y="375" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="27" font-weight="600" fill="#ECE7DD">Kept from being deleted</text>
+</svg>
