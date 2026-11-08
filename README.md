@@ -1,30 +1,14 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="ItemSafety: an inventory of 20 slots, six of them holding items the base game would have deleted" width="100%">
+  <img src="assets/banner-lab.svg" alt="ItemSafety, alpha test build: a Schedule I cauldron's leaf, petrol and output slots next to a handler's pocket holding 20 coca leaves the base game would have deleted, with ItemSafety log lines for the kept delivery, the restored carry and a limited pickup" width="100%">
 </p>
 
-<p align="center">
-  <b>Your employees and cauldrons stop quietly deleting leaves, petrol and product.</b>
-</p>
+Your employees and cauldrons stop quietly deleting leaves, petrol and product. Only the host installs it.
 
-<p align="center">
-  <img alt="Alpha" src="https://img.shields.io/badge/status-alpha-F0A23B?labelColor=22362E">
-  <a href="https://github.com/mdoodm/ItemSafety/releases"><img alt="Latest release" src="https://img.shields.io/github/v/release/mdoodm/ItemSafety?include_prereleases&label=release&color=8BD3A0&labelColor=22362E"></a>
-  <img alt="Schedule I 0.4.7" src="https://img.shields.io/badge/Schedule%20I-0.4.7-ECE7DD?labelColor=22362E">
-  <img alt="MelonLoader 0.7.3 or later" src="https://img.shields.io/badge/MelonLoader-0.7.3%2B-ECE7DD?labelColor=22362E">
-  <a href="LICENSE"><img alt="MIT licence" src="https://img.shields.io/github/license/mdoodm/ItemSafety?color=ECE7DD&labelColor=22362E"></a>
-</p>
+<img alt="Alpha" src="https://img.shields.io/badge/status-alpha-e0a24a?labelColor=1a1e28">
+<a href="https://github.com/mdoodm/ItemSafety/releases"><img alt="Latest release" src="https://img.shields.io/github/v/release/mdoodm/ItemSafety?include_prereleases&label=release&color=7cc98a&labelColor=1a1e28"></a>
+<img alt="Schedule I 0.4.7" src="https://img.shields.io/badge/Schedule%20I-0.4.7-e9e6df?labelColor=1a1e28">
 
-<p align="center">
-  <a href="https://github.com/mdoodm/ItemSafety/releases"><b>Download</b></a>
-  &nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="#install">Install</a>
-  &nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="#what-it-fixes">What it fixes</a>
-  &nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="#help-test-it">Help test it</a>
-  &nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="CHANGELOG.md">Changelog</a>
-</p>
+**[Download the latest build](https://github.com/mdoodm/ItemSafety/releases)** or read [how to install](#install)
 
 > [!WARNING]
 > **ItemSafety is in alpha testing.** It changes how employees and cauldrons move items, and it hasn't had much play time yet.
@@ -42,12 +26,12 @@ That isn't your imagination. Schedule I 0.4.7 has several places where items are
 
 ItemSafety catches those moments on the host and keeps the items:
 
-- **Employees stop losing what they carry.** They only pick up what fits in their pockets, and a delivery that has nowhere to go stays with them instead of vanishing.
-- **Reloading doesn't eat deliveries.** Items an employee was carrying when the game saved are given back when it loads.
-- **Cauldrons don't throw away batches.** A cook won't start if its product can't stack with what's already in the output.
-- **When something does go missing, you can see who did it.** Every change to a cauldron's slots is logged with who made it.
+- Employees only pick up what fits in their pockets, and a delivery with nowhere to go stays with them instead of vanishing.
+- Items an employee was carrying when the game saved are given back when it loads.
+- A cook won't start if its product can't stack with what's already in the output.
+- Every change to a cauldron's slots is logged with who made it, so when something does go missing you can see why.
 
-**Only the host needs it.** Friends can join with an unmodded game. It works solo too.
+Only the host needs it. Friends can join with an unmodded game, and it works solo too.
 
 ## What it fixes
 
@@ -87,7 +71,7 @@ Get-FileHash .\ItemSafety_Il2cpp.dll -Algorithm SHA256
 
 ### Hosting a big group?
 
-ItemSafety pairs with [**BiggerLobbies**](https://github.com/mdoodm/BiggerLobbies), which raises the lobby to 20 players and adds autosave and crash rejoining. They don't overlap, and both are host-only.
+ItemSafety pairs with [BiggerLobbies](https://github.com/mdoodm/BiggerLobbies), which hosts 20 players by default (up to 250) and adds autosave and crash rejoining. They don't overlap, and both are host-only.
 
 ## Settings
 
@@ -106,7 +90,7 @@ Everything is on by default. After the first launch you can change it in `UserDa
 
 This is what the alpha is for. If items still go missing, you can trace exactly what happened.
 
-**What to look for in `MelonLoader\Latest.log`:**
+### What to look for in `MelonLoader\Latest.log`
 
 | Line starts with | Means |
 |---|---|
@@ -116,14 +100,16 @@ This is what the alpha is for. If items still go missing, you can trace exactly 
 | `[cauldron …]` | A cauldron slot changed, a cook started or finished, or a quality mix was blocked or merged |
 | `SUSPICIOUS` | A joined player's game dropped a cauldron's petrol by more than one cook uses |
 
-**Reporting a problem:** [open an issue](https://github.com/mdoodm/ItemSafety/issues) and attach:
+### Reporting a problem
+
+[Open an issue](https://github.com/mdoodm/ItemSafety/issues) and attach:
 
 - the host's `MelonLoader\Latest.log`
 - the host's backed-up `Player-*.log` from `UserData\ItemSafety\Logs`
 - if a joined player was involved, their `Player.log` from `%USERPROFILE%\AppData\LocalLow\TVGS\Schedule I\`
 - roughly when it happened, and which cauldron or employee
 
-**Quick tips while you test:**
+### Quick tips while you test
 
 - If an employee seems stuck, talk to them and empty their pockets. The log names them.
 - Empty a cauldron's output before starting a cook with a different leaf quality.

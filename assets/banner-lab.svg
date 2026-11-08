@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="t d">
+<title id="t">ItemSafety</title>
+<desc id="d">A Schedule I cauldron with four leaf slots, a petrol slot and its output, next to a handler's pocket holding 20 coca leaves the base game would have deleted. Log lines show the delivery kept and the carried items restored after loading. Alpha test build.</desc>
+<rect width="1280" height="420" rx="16" fill="#0b0d14"/>
+<text x="72" y="150" font-family="Segoe UI, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="68" font-weight="600" letter-spacing="-1.5" fill="#eef0f5">ItemSafety</text>
+<text x="74" y="198" font-family="Segoe UI, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="26" font-weight="400" fill="#a3a9b8">Stops Schedule I deleting your items</text>
+<text x="74" y="240" font-family="Segoe UI, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="20" font-weight="500" fill="#e0a24a">Alpha test build</text>
+<rect x="74" y="276" width="24" height="24" rx="8" fill="#e9e6df"/>
+<g transform="translate(84.08 286.56) rotate(-35)"><ellipse rx="5.3" ry="9.1" fill="#0b0d14" fill-opacity="0.55"/><path d="M0 -8.2 V9.6" stroke="#e9e6df" stroke-opacity="0.5" stroke-width="1.5"/></g>
+<text x="112" y="296" font-family="Segoe UI, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="500" fill="#eef0f5">Your items</text>
+<rect x="74" y="316" width="24" height="24" rx="8" fill="#7cc98a"/>
+<g transform="translate(84.08 326.56) rotate(-35)"><ellipse rx="5.3" ry="9.1" fill="#0b0d14" fill-opacity="0.55"/><path d="M0 -8.2 V9.6" stroke="#e9e6df" stroke-opacity="0.5" stroke-width="1.5"/></g>
+<text x="112" y="336" font-family="Segoe UI, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="500" fill="#eef0f5">Kept from being deleted</text>
+<rect x="568" y="96" width="648" height="240" rx="16" fill="#11141c"/>
+<rect x="568.5" y="96.5" width="647" height="239" rx="15.5" fill="none" stroke="#eef0f5" stroke-opacity="0.08"/>
+<text x="592" y="136" font-family="Segoe UI, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="500" fill="#a3a9b8">Cauldron</text>
+<rect x="592" y="152" width="56" height="56" rx="8" fill="#e9e6df"/>
+<g transform="translate(615.52 176.64) rotate(-35)"><ellipse rx="12.3" ry="21.3" fill="#0b0d14" fill-opacity="0.55"/><path d="M0 -19.0 V22.4" stroke="#e9e6df" stroke-opacity="0.5" stroke-width="1.5"/></g>
+<text x="642" y="202" text-anchor="end" font-family="Segoe UI, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#0b0d14" fill-opacity="0.8">20</text>
+<rect x="656" y="152" width="56" height="56" rx="8" fill="#e9e6df"/>
+<g transform="translate(679.52 176.64) rotate(-35)"><ellipse rx="12.3" ry="21.3" fill="#0b0d14" fill-opacity="0.55"/><path d="M0 -19.0 V22.4" stroke="#e9e6df" stroke-opacity="0.5" stroke-width="1.5"/></g>
+<text x="706" y="202" text-anchor="end" font-family="Segoe UI, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#0b0d14" fill-opacity="0.8">20</text>
+<rect x="720" y="152" width="56" height="56" rx="8" fill="#e9e6df"/>
+<g transform="translate(743.52 176.64) rotate(-35)"><ellipse rx="12.3" ry="21.3" fill="#0b0d14" fill-opacity="0.55"/><path d="M0 -19.0 V22.4" stroke="#e9e6df" stroke-opacity="0.5" stroke-width="1.5"/></g>
+<text x="770" y="202" text-anchor="end" font-family="Segoe UI, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#0b0d14" fill-opacity="0.8">20</text>
+<rect x="784" y="152" width="56" height="56" rx="8" fill="#e9e6df"/>
+<g transform="translate(807.52 176.64) rotate(-35)"><ellipse rx="12.3" ry="21.3" fill="#0b0d14" fill-opacity="0.55"/><path d="M0 -19.0 V22.4" stroke="#e9e6df" stroke-opacity="0.5" stroke-width="1.5"/></g>
+<text x="834" y="202" text-anchor="end" font-family="Segoe UI, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#0b0d14" fill-opacity="0.8">8</text>
+<rect x="848" y="152" width="56" height="56" rx="8" fill="#e9e6df"/>
+<rect x="859.8" y="165.1" width="23.5" height="29.1" rx="3" fill="#0b0d14" fill-opacity="0.55"/><rect x="876.3" y="159.1" width="6" height="8" rx="1.5" fill="#0b0d14" fill-opacity="0.55"/>
+<text x="898" y="202" text-anchor="end" font-family="Segoe UI, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#0b0d14" fill-opacity="0.8">16</text>
+<path d="M916 180.0 h20 m-6 -6 l6 6 l-6 6" fill="none" stroke="#7a8296" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="948" y="152" width="56" height="56" rx="8" fill="#e9e6df"/>
+<rect x="957.5" y="167.7" width="28.0" height="17.9" rx="3" fill="#0b0d14" fill-opacity="0.55"/>
+<text x="998" y="202" text-anchor="end" font-family="Segoe UI, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#0b0d14" fill-opacity="0.8">10</text>
+<text x="1192" y="136" text-anchor="end" font-family="Segoe UI, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="500" fill="#a3a9b8">Handler's pockets</text>
+<rect x="1136" y="152" width="56" height="56" rx="8" fill="#7cc98a"/>
+<g transform="translate(1159.52 176.64) rotate(-35)"><ellipse rx="12.3" ry="21.3" fill="#0b0d14" fill-opacity="0.55"/><path d="M0 -19.0 V22.4" stroke="#e9e6df" stroke-opacity="0.5" stroke-width="1.5"/></g>
+<text x="1186" y="202" text-anchor="end" font-family="Segoe UI, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#0b0d14" fill-opacity="0.8">20</text>
+<line x1="592" y1="236" x2="1192" y2="236" stroke="#eef0f5" stroke-opacity="0.08"/>
+<text x="592" y="264" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="12" fill="#7cc98a">[delivery] <tspan fill="#a3a9b8">Brandon Perez: 20x cocaleaf couldn&#39;t go into &#39;Cauldron&#39; or back to &#39;Shelf&#39;</tspan></text>
+<text x="592" y="288" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="12" fill="#7a8296">[restore] <tspan fill="#a3a9b8">Brandon Perez: gave back 20x cocaleaf they were carrying when the game saved</tspan></text>
+<text x="592" y="312" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="12" fill="#7a8296">[pickup] <tspan fill="#a3a9b8">Amy Torres: limited gasoline pickup from 20 to 4 (pocket space)</tspan></text>
+</svg>
