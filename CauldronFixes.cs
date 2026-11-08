@@ -52,9 +52,23 @@ public static class CauldronQualityPatches
         catch (Exception e) { Log.Err($"[cauldron] {e}"); }
     }
 
-    // Runs on every peer; only the host adds the output (it checks IsServer itself).
+    // HasOutputSpace has no callers in the 0.4.7 build (it's compiled into GetState), so the
+    // cook button and chemists go through GetState. Report OutputFull for a mismatched cook.
+    [HarmonyPostfix]
+    [HarmonyPatch(typeof(Cauldron), nameof(Cauldron.GetState))]
+    private static void GetState_Postfix(Cauldron __instance, ref Cauldron.EState __result)
+    {
+        if (__result != Cauldron.EState.Ready) return;
+        bool ok = true;
+        HasOutputSpace_Postfix(__instance, ref ok);
+        if (!ok) __result = Cauldron.EState.OutputFull;
+    }
+
+    // FinishCookOperation sends an observers RPC. In the 0.4.7 build the RpcLogic body is
+    // compiled into this reader and RpcLogic itself is never called, so hook the reader.
+    // It runs on every peer; only the host adds the output (it checks IsServer itself).
     [HarmonyPrefix]
-    [HarmonyPatch(typeof(Cauldron), nameof(Cauldron.RpcLogic___FinishCookOperation_2166136261))]
+    [HarmonyPatch(typeof(Cauldron), nameof(Cauldron.RpcReader___Observers_FinishCookOperation_2166136261))]
     private static void Finish_Prefix(Cauldron __instance)
     {
         if (!Items.IsHost) return;
@@ -98,6 +112,8 @@ public static class CauldronQualityPatches
 // A joined player's game sends "set slot to N" from its own copy, not "remove 1". The host
 // applies it as-is. This logs every change on the host with the sender so a wiped stack can
 // be traced. Nothing is blocked yet.
+// The hooks sit on the *_Internal methods: in the 0.4.7 build the RpcLogic___ wrappers are
+// compiled into their callers and never called, while every path (host, RPC reader) ends in _Internal.
 [HarmonyPatch]
 public static class CauldronSlotLog
 {
@@ -120,7 +136,7 @@ public static class CauldronSlotLog
     private static void ReadStored_Postfix() => _sender = null;
 
     [HarmonyPrefix]
-    [HarmonyPatch(typeof(Cauldron), nameof(Cauldron.RpcLogic___SetItemSlotQuantity_1692629761))]
+    [HarmonyPatch(typeof(Cauldron), nameof(Cauldron.SetItemSlotQuantity_Internal))]
     private static void SetQty_Prefix(Cauldron __instance, int itemSlotIndex, int quantity)
     {
         if (!Settings.LogCauldronSlots || !Items.IsHost) return;
@@ -142,7 +158,7 @@ public static class CauldronSlotLog
     }
 
     [HarmonyPrefix]
-    [HarmonyPatch(typeof(Cauldron), nameof(Cauldron.RpcLogic___SetStoredInstance_2652194801))]
+    [HarmonyPatch(typeof(Cauldron), nameof(Cauldron.SetStoredInstance_Internal))]
     private static void SetStored_Prefix(Cauldron __instance, int itemSlotIndex, ItemInstance instance)
     {
         if (!Settings.LogCauldronSlots || !Items.IsHost) return;

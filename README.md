@@ -132,10 +132,15 @@ This is what the alpha is for. If items still go missing, you can trace exactly 
 
 | Feature | Status |
 |---|---|
-| Builds and loads against game 0.4.7 | Yes |
-| Safe pickup, safe delivery, restore on reload | Not tested in game yet |
-| Cauldron quality fix | Not tested in game yet |
+| Builds and loads against game 0.4.7, all 10 patches attach | Yes |
+| Restore on reload | Yes, solo: a handler got back 20 leaves, which were then delivered and cooked |
+| Cauldron quality fix: blocking a cook that can't stack | Yes, solo: Standard base in the output with Heavenly leaves was blocked; nothing was lost |
+| Cauldron quality fix: merging a batch that finished anyway | Not tested in game yet |
+| Cauldron slot logging, solo | Yes |
 | Cauldron slot logging with a joined player | Not tested yet |
+| Safe pickup, safe delivery | Not tested in game yet (hasn't come up in play) |
+
+Not in a release yet: the results above are from the code on `main`. In the `v0.1.0-alpha` download the cauldron quality fix and slot log never run (see the changelog).
 
 ## Not done yet
 

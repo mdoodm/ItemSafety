@@ -19,6 +19,8 @@ public class Core : MelonMod
         Log.Warn($@"ItemSafety {Version} is an ALPHA test build. It changes how employees and cauldrons handle items. Back up your saves first (%USERPROFILE%\AppData\LocalLow\TVGS\Schedule I\Saves) and report anything odd.");
         Log.Msg($"ItemSafety {Version} loaded. Pickup={Settings.SafePickup} Delivery={Settings.SafeDelivery} " +
                 $"RestoreCarry={Settings.RestoreCarry} CauldronQuality={Settings.CauldronQuality} SlotLog={Settings.LogCauldronSlots}");
+        var patched = HarmonyInstance.GetPatchedMethods().Select(m => $"{m.DeclaringType?.Name}.{m.Name}").OrderBy(n => n).ToList();
+        Log.Msg($"Patched {patched.Count} methods: {string.Join(", ", patched)}");
     }
 }
 
